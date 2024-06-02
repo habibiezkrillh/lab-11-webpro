@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Container</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="shapeContainerWrapper">
+        <div class="controls">
+            <button id="addShape">Add Shape</button>
+            <button id="removeShape">Remove Shape</button>
+            <label for="shapeType">Shape:</label>
+            <select id="shapeType">
+                <option value="circle">Circle</option>
+                <option value="square">Square</option>
+            </select>
+            <label for="shapeColor">Color:</label>
+            <input type="color" id="shapeColor" value="#ff0000">
+        </div>
+        <div class="shapeContainer" id="shapeContainer"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+.shapeContainerWrapper {
+    padding: 20px;
+}
+.shapeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    position: relative;
+}
+.controls {
+    margin-bottom: 10px;
+}
+.shape {
+    margin: 5px;
+    display: inline-block;
+}
+.circle {
+    border-radius: 50%;
+}
+.square {
+    border-radius: 0;
+}
